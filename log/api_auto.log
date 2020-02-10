@@ -1,170 +1,170 @@
-2019-12-22 00:50:18 method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) - [ INFO ]----HV000001: Hibernate Validator 5.2.4.Final
-2019-12-22 00:50:19 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
-2019-12-22 00:50:19 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"15807513898","pwd":""}
-2019-12-22 00:50:19 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:21 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 39,Chunked: false]
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"","pwd":"123456"}
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:21 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 34,Chunked: false]
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:20 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"123","pwd":"12345678"}
-2019-12-22 00:50:20 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 39,Chunked: false]
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"15807513898","pwd":"12345"}
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 44,Chunked: false]
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"15807513898","pwd":"12345678"}
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：select count(*) from member where mobile_phone = '15807513898';
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:22 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 47,Chunked: false]
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:21 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":92195,"reg_name":"小柠檬","mobile_phone":"15807513898"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:21 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"}]断言结果：true
-2019-12-22 00:50:21 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:99) - [ INFO ]----数据库断言结果：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"15807513898","pwd":"12345678"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 47,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"18900492238","pwd":""}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 39,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"","pwd":"12345678"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 36,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"13333333333","pwd":"123456"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 45,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"18900492238","pwd":"12345"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 44,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"mobile_phone":"18900492238","pwd":"12345678"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 47,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":88109,"leave_amount":580000.0,"mobile_phone":"18900492238","reg_name":"小柠檬","reg_time":"2019-12-18 21:34:13.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2019-12-22 00:55:23","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjg4MTA5LCJleHAiOjE1NzY5NDczMjN9.4yafEWXb4Kh56-HBM-N_SG715jLR5fKkIedCJY6w9IXjTNWcAiOQrdt5QCGWT769Y4Ng2FpxBFu-yAdW4oj2hg"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"}]断言结果：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"member_id":"-1","amount":"6300"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 34,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：1007 | 期望值：[{"value":1008,"expression":"$.code"}]断言结果：false
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：false
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Fail
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"1116300"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 40,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：2 | 期望值：[{"value":2,"expression":"$.code"}]断言结果：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"-6300"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 38,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：2 | 期望值：[{"value":2,"expression":"$.code"}]断言结果：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"SSS"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：null
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:23 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 36,Chunked: false]
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:22 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"数字格式化异常","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:22 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：2 | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：false
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：false
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Fail
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"6300"}
-2019-12-22 00:50:22 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：select leave_amount from member where id = 88109
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:24 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 37,Chunked: false]
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":88109,"leave_amount":586300.0,"mobile_phone":"18900492238","reg_name":"小柠檬","reg_time":"2019-12-18 21:34:13.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:23 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
-2019-12-22 00:50:23 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：OK | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:99) - [ INFO ]----数据库断言结果：true
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:56) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:59) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"5300"}
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:60) - [ INFO ]----sql校验：select leave_amount from member where id = 88109
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Sat, 21 Dec 2019 16:50:24 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 37,Chunked: false]
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
-2019-12-22 00:50:23 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":88109,"leave_amount":591600.0,"mobile_phone":"18900492238","reg_name":"小柠檬","reg_time":"2019-12-18 21:34:13.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
-2019-12-22 00:50:23 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
-2019-12-22 00:50:23 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:166) - [ INFO ]----实际值：OK | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
-2019-12-22 00:50:23 method: cases.BaseCase.test(BaseCase.java:89) - [ INFO ]----响应断言：true
-2019-12-22 00:50:24 method: cases.BaseCase.test(BaseCase.java:99) - [ INFO ]----数据库断言结果：true
-2019-12-22 00:50:24 method: cases.BaseCase.test(BaseCase.java:103) - [ INFO ]----结果断言：Pass
-2019-12-22 00:50:24 method: cases.BaseCase.finish(BaseCase.java:191) - [ INFO ]-----=-=-=-=-=回写完毕！--=-=-=-=-=-=
-2019-12-22 00:50:24 method: cases.BaseCase.finish(BaseCase.java:191) - [ INFO ]-----=-=-=-=-=回写完毕！--=-=-=-=-=-=
-2019-12-22 00:50:24 method: cases.BaseCase.finish(BaseCase.java:191) - [ INFO ]-----=-=-=-=-=回写完毕！--=-=-=-=-=-=
+2020-02-10 13:34:48 method: org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30) - [ INFO ]----HV000001: Hibernate Validator 5.2.4.Final
+2020-02-10 13:34:48 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
+2020-02-10 13:34:48 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"15600546879","pwd":""}
+2020-02-10 13:34:48 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:49 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 39,Chunked: false]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"","pwd":"123456"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:50 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 34,Chunked: false]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"123","pwd":"12345678"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:50 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 39,Chunked: false]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"15600546879","pwd":"12345"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:50 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 44,Chunked: false]
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:50 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"15600546879","pwd":"12345678"}
+2020-02-10 13:34:50 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：select count(*) from member where mobile_phone = '15600546879';
+2020-02-10 13:34:51 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:51 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:51 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 47,Chunked: false]
+2020-02-10 13:34:51 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:51 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":958463,"reg_name":"小柠檬","mobile_phone":"15600546879"},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:51 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"}]断言结果：true
+2020-02-10 13:34:51 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:97) - [ INFO ]----数据库断言结果：true
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/register
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"15600546879","pwd":"12345678"}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:52 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 47,Chunked: false]
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"18900492238","pwd":""}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:52 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 39,Chunked: false]
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"","pwd":"12345678"}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:52 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 36,Chunked: false]
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:52 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"13333333333","pwd":"123456"}
+2020-02-10 13:34:52 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 45,Chunked: false]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"18900492238","pwd":"12345"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 44,Chunked: false]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/login
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"mobile_phone":"18900492238","pwd":"12345678"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 47,Chunked: false]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":88109,"leave_amount":1276000.0,"mobile_phone":"18900492238","reg_name":"小柠檬","reg_time":"2019-12-18 21:34:13.0","type":1,"token_info":{"token_type":"Bearer","expires_in":"2020-02-10 13:39:53","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjg4MTA5LCJleHAiOjE1ODEzMTMxOTN9.p94yL6dcusESm-SVaNScT2dXzlZJAKWu1QPgKpx-ZC_PRmNJQ72Jrt63U0iErtpn27XMbZawyizGZ_ci9Jr-Ng"}},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:53 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"}]断言结果：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"member_id":"-1","amount":"6300"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 34,Chunked: false]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":1007,"msg":"无权限访问，请检查参数","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:53 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：1007 | 期望值：[{"value":1008,"expression":"$.code"}]断言结果：false
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：false
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Fail
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"1116300"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 40,Chunked: false]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:53 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：2 | 期望值：[{"value":2,"expression":"$.code"}]断言结果：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"-6300"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:53 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 38,Chunked: false]
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:53 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"余额必须大于0并且小于或者等于500000","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:53 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：2 | 期望值：[{"value":2,"expression":"$.code"}]断言结果：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"SSS"}
+2020-02-10 13:34:53 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：null
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:54 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 36,Chunked: false]
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":2,"msg":"数字格式化异常","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:54 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：2 | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：false
+2020-02-10 13:34:54 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：false
+2020-02-10 13:34:54 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Fail
+2020-02-10 13:34:54 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
+2020-02-10 13:34:54 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"6300"}
+2020-02-10 13:34:54 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：select leave_amount from member where id = 88109
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:54 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 37,Chunked: false]
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:54 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":88109,"leave_amount":1282300.0,"mobile_phone":"18900492238","reg_name":"小柠檬","reg_time":"2019-12-18 21:34:13.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:54 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
+2020-02-10 13:34:54 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：OK | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
+2020-02-10 13:34:54 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:55 method: cases.BaseCase.test(BaseCase.java:97) - [ INFO ]----数据库断言结果：true
+2020-02-10 13:34:55 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:55 method: cases.BaseCase.test(BaseCase.java:54) - [ INFO ]----======================参数化替换======================http://api.lemonban.com/futureloan/member/recharge
+2020-02-10 13:34:55 method: cases.BaseCase.test(BaseCase.java:57) - [ INFO ]----替换后的参数：{"member_id":"88109","amount":"5300"}
+2020-02-10 13:34:55 method: cases.BaseCase.test(BaseCase.java:58) - [ INFO ]----sql校验：select leave_amount from member where id = 88109
+2020-02-10 13:34:56 method: utils.HttpUtils.testPostJson(HttpUtils.java:229) - [ INFO ]----请求头：[Server: nginx/1.4.2, Date: Mon, 10 Feb 2020 05:34:56 GMT, Content-Type: application/json;charset=UTF-8, Transfer-Encoding: chunked, Connection: keep-alive]
+2020-02-10 13:34:56 method: utils.HttpUtils.testPostJson(HttpUtils.java:230) - [ INFO ]----请求体：[Content-Type: text/plain; charset=UTF-8,Content-Length: 37,Chunked: false]
+2020-02-10 13:34:56 method: utils.HttpUtils.testPostJson(HttpUtils.java:231) - [ INFO ]----状态码：200
+2020-02-10 13:34:56 method: utils.HttpUtils.testPostJson(HttpUtils.java:232) - [ INFO ]----响应体：{"code":0,"msg":"OK","data":{"id":88109,"leave_amount":1287600.0,"mobile_phone":"18900492238","reg_name":"小柠檬","reg_time":"2019-12-18 21:34:13.0","type":1},"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}
+2020-02-10 13:34:56 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：0 | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
+2020-02-10 13:34:56 method: cases.BaseCase.assertResponseData_aroundBody0(BaseCase.java:164) - [ INFO ]----实际值：OK | 期望值：[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}]断言结果：true
+2020-02-10 13:34:56 method: cases.BaseCase.test(BaseCase.java:87) - [ INFO ]----响应断言：true
+2020-02-10 13:34:56 method: cases.BaseCase.test(BaseCase.java:97) - [ INFO ]----数据库断言结果：true
+2020-02-10 13:34:56 method: cases.BaseCase.test(BaseCase.java:101) - [ INFO ]----结果断言：Pass
+2020-02-10 13:34:56 method: cases.BaseCase.finish(BaseCase.java:189) - [ INFO ]-----=-=-=-=-=回写完毕！--=-=-=-=-=-=
+2020-02-10 13:34:57 method: cases.BaseCase.finish(BaseCase.java:189) - [ INFO ]-----=-=-=-=-=回写完毕！--=-=-=-=-=-=
+2020-02-10 13:34:57 method: cases.BaseCase.finish(BaseCase.java:189) - [ INFO ]-----=-=-=-=-=回写完毕！--=-=-=-=-=-=

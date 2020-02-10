@@ -2,10 +2,10 @@ package pojo;
 
 public class JsonPathAssert {
     //断言预期jsonPath的值
-    private String value;
+    private String value = "1";
     
     //断言预期jsonPath的表达式
-    private String expression;
+    private String expression = "21";
 
     public JsonPathAssert() {
 	super();

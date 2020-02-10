@@ -1,18 +1,13 @@
 package cases;
 
-import java.util.List;
-import java.util.Set;
-
-import org.apache.commons.lang3.StringUtils;
-import org.apache.log4j.Logger;
-import org.testng.Assert;
-
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPath;
-
 import consts.Const;
 import io.qameta.allure.Step;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.Logger;
+import org.testng.Assert;
 import pojo.API;
 import pojo.Case;
 import pojo.JsonPathAssert;
@@ -21,6 +16,9 @@ import utils.EnvironmentUtils;
 import utils.ExcelUtils;
 import utils.HttpUtils;
 import utils.SQLUtils;
+
+import java.util.List;
+import java.util.Set;
 
 public abstract class BaseCase {
     
@@ -152,7 +150,7 @@ public abstract class BaseCase {
     protected boolean assertResponseData(String expectedData, String content) {
 
 	Object parse = JSONObject.parse(expectedData);
-	// 判断是不是JSONArray.若是数组类型,就采用多关键字匹配
+	// 判断是不是JSONArray,若是,就采用多关键字匹配
 	if (parse instanceof JSONArray) {
 
 	    // 将期望数据转成list集合

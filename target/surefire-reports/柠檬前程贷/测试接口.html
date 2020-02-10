@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>15/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 21 00:00:12 CST 2019</td>
+<td>Started on:</td><td>Mon Feb 10 13:34:47 CST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5598 ms)</td>
+<tr><td>Total time:</td><td>9 seconds (9395 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,16 +77,16 @@ function toggleAllBoxes() {
 <tr>
 <td title='cases.RechargeCase.test()'><b>test</b><br>Test class: cases.RechargeCase<br>Test method: 充值测试<br>Parameters: API [id=3, name=recharge, type=post, url=http://api.lemonban.com/futureloan/member/recharge, contentType=json], Case [id=12, detail=非当前账号id, params={"member_id":"-1","amount":"6300"}, apiId=3, expectedData=[{"value":1008,"expression":"$.code"}], sqlCheck=null]</td>
 <td><div><pre>java.lang.AssertionError: expected [Pass] but found [Fail]
-	at cases.BaseCase.test(BaseCase.java:105)
+	at cases.BaseCase.test(BaseCase.java:103)
 	at cases.RechargeCase.test(RechargeCase.java:27)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace658156215", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace658156215'><pre>java.lang.AssertionError: expected [Pass] but found [Fail]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327845331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace327845331'><pre>java.lang.AssertionError: expected [Pass] but found [Fail]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at cases.BaseCase.test(BaseCase.java:105)
+	at cases.BaseCase.test(BaseCase.java:103)
 	at cases.RechargeCase.test(RechargeCase.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -118,20 +118,20 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>cases.RechargeCase@2e1792e7</td></tr>
+<td>cases.RechargeCase@41a6d121</td></tr>
 <tr>
 <td title='cases.RechargeCase.test()'><b>test</b><br>Test class: cases.RechargeCase<br>Test method: 充值测试<br>Parameters: API [id=3, name=recharge, type=post, url=http://api.lemonban.com/futureloan/member/recharge, contentType=json], Case [id=15, detail=非数字, params={"member_id":"88109","amount":"SSS"}, apiId=3, expectedData=[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}], sqlCheck=null]</td>
 <td><div><pre>java.lang.AssertionError: expected [Pass] but found [Fail]
-	at cases.BaseCase.test(BaseCase.java:105)
+	at cases.BaseCase.test(BaseCase.java:103)
 	at cases.RechargeCase.test(RechargeCase.java:27)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace705825928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace705825928'><pre>java.lang.AssertionError: expected [Pass] but found [Fail]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace654821264", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace654821264'><pre>java.lang.AssertionError: expected [Pass] but found [Fail]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at cases.BaseCase.test(BaseCase.java:105)
+	at cases.BaseCase.test(BaseCase.java:103)
 	at cases.RechargeCase.test(RechargeCase.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -163,7 +163,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
 <td>0</td>
-<td>cases.RechargeCase@2e1792e7</td></tr>
+<td>cases.RechargeCase@41a6d121</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -173,80 +173,80 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=1, detail=传手机号,不传密码, params={"mobile_phone":"15108550545","pwd":""}, apiId=1, expectedData={"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
+<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=1, detail=传手机号,不传密码, params={"mobile_phone":"15600546879","pwd":""}, apiId=1, expectedData={"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>1</td>
-<td>cases.RegisterCase@69c6161d</td></tr>
+<td>cases.RegisterCase@5baaae4c</td></tr>
 <tr>
 <td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=2, detail=不传手机号，传密码, params={"mobile_phone":"","pwd":"123456"}, apiId=1, expectedData={"code":1,"msg":"手机号为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.RegisterCase@69c6161d</td></tr>
+<td>cases.RegisterCase@5baaae4c</td></tr>
 <tr>
 <td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=3, detail=不合格的手机号, params={"mobile_phone":"123","pwd":"12345678"}, apiId=1, expectedData={"code":2,"msg":"无效的手机格式","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.RegisterCase@69c6161d</td></tr>
+<td>cases.RegisterCase@5baaae4c</td></tr>
 <tr>
-<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=4, detail=合格的手机号+不合格密码, params={"mobile_phone":"15108550545","pwd":"12345"}, apiId=1, expectedData={"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
+<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=4, detail=合格的手机号+不合格密码, params={"mobile_phone":"15600546879","pwd":"12345"}, apiId=1, expectedData={"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.RegisterCase@69c6161d</td></tr>
+<td>cases.RegisterCase@5baaae4c</td></tr>
 <tr>
-<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=5, detail=合格手机号+合格密码, params={"mobile_phone":"15108550545","pwd":"12345678"}, apiId=1, expectedData=[{"value":0,"expression":"$.code"}], sqlCheck=select count(*) from member where mobile_phone = '15108550545';]</td>
+<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=5, detail=合格手机号+合格密码, params={"mobile_phone":"15600546879","pwd":"12345678"}, apiId=1, expectedData=[{"value":0,"expression":"$.code"}], sqlCheck=select count(*) from member where mobile_phone = '15600546879';]</td>
 <td></td>
 <td>1</td>
-<td>cases.RegisterCase@69c6161d</td></tr>
+<td>cases.RegisterCase@5baaae4c</td></tr>
 <tr>
-<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=6, detail=重复以上的手机号+密码, params={"mobile_phone":"15108550545","pwd":"12345678"}, apiId=1, expectedData={"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
+<td title='cases.RegisterCase.test()'><b>test</b><br>Test class: cases.RegisterCase<br>Test method: 注册测试<br>Parameters: API [id=1, name=register, type=post, url=http://api.lemonban.com/futureloan/member/register, contentType=json], Case [id=6, detail=重复以上的手机号+密码, params={"mobile_phone":"15600546879","pwd":"12345678"}, apiId=1, expectedData={"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.RegisterCase@69c6161d</td></tr>
+<td>cases.RegisterCase@5baaae4c</td></tr>
 <tr>
 <td title='cases.LoginCase.test()'><b>test</b><br>Test class: cases.LoginCase<br>Test method: 登录测试<br>Parameters: API [id=2, name=login, type=post, url=http://api.lemonban.com/futureloan/member/login, contentType=json], Case [id=7, detail=传手机号，不传密码, params={"mobile_phone":"18900492238","pwd":""}, apiId=2, expectedData={"code":2,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.LoginCase@3aefae67</td></tr>
+<td>cases.LoginCase@5b6e8f77</td></tr>
 <tr>
 <td title='cases.LoginCase.test()'><b>test</b><br>Test class: cases.LoginCase<br>Test method: 登录测试<br>Parameters: API [id=2, name=login, type=post, url=http://api.lemonban.com/futureloan/member/login, contentType=json], Case [id=8, detail=不传手机号，传密码, params={"mobile_phone":"","pwd":"12345678"}, apiId=2, expectedData={"code":2,"msg":"手机号码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.LoginCase@3aefae67</td></tr>
+<td>cases.LoginCase@5b6e8f77</td></tr>
 <tr>
 <td title='cases.LoginCase.test()'><b>test</b><br>Test class: cases.LoginCase<br>Test method: 登录测试<br>Parameters: API [id=2, name=login, type=post, url=http://api.lemonban.com/futureloan/member/login, contentType=json], Case [id=9, detail=未注册过的手机号, params={"mobile_phone":"13333333333","pwd":"123456"}, apiId=2, expectedData={"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.LoginCase@3aefae67</td></tr>
+<td>cases.LoginCase@5b6e8f77</td></tr>
 <tr>
 <td title='cases.LoginCase.test()'><b>test</b><br>Test class: cases.LoginCase<br>Test method: 登录测试<br>Parameters: API [id=2, name=login, type=post, url=http://api.lemonban.com/futureloan/member/login, contentType=json], Case [id=10, detail=不满足条件的密码, params={"mobile_phone":"18900492238","pwd":"12345"}, apiId=2, expectedData={"code":1001,"msg":"账号信息错误","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.LoginCase@3aefae67</td></tr>
+<td>cases.LoginCase@5b6e8f77</td></tr>
 <tr>
 <td title='cases.LoginCase.test()'><b>test</b><br>Test class: cases.LoginCase<br>Test method: 登录测试<br>Parameters: API [id=2, name=login, type=post, url=http://api.lemonban.com/futureloan/member/login, contentType=json], Case [id=11, detail=已注册的账号, params={"mobile_phone":"18900492238","pwd":"12345678"}, apiId=2, expectedData=[{"value":0,"expression":"$.code"}], sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.LoginCase@3aefae67</td></tr>
+<td>cases.LoginCase@5b6e8f77</td></tr>
 <tr>
 <td title='cases.RechargeCase.test()'><b>test</b><br>Test class: cases.RechargeCase<br>Test method: 充值测试<br>Parameters: API [id=3, name=recharge, type=post, url=http://api.lemonban.com/futureloan/member/recharge, contentType=json], Case [id=13, detail=超过50万, params={"member_id":"88109","amount":"1116300"}, apiId=3, expectedData=[{"value":2,"expression":"$.code"}], sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.RechargeCase@2e1792e7</td></tr>
+<td>cases.RechargeCase@41a6d121</td></tr>
 <tr>
 <td title='cases.RechargeCase.test()'><b>test</b><br>Test class: cases.RechargeCase<br>Test method: 充值测试<br>Parameters: API [id=3, name=recharge, type=post, url=http://api.lemonban.com/futureloan/member/recharge, contentType=json], Case [id=14, detail=负数, params={"member_id":"88109","amount":"-6300"}, apiId=3, expectedData=[{"value":2,"expression":"$.code"}], sqlCheck=null]</td>
 <td></td>
 <td>0</td>
-<td>cases.RechargeCase@2e1792e7</td></tr>
+<td>cases.RechargeCase@41a6d121</td></tr>
 <tr>
 <td title='cases.RechargeCase.test()'><b>test</b><br>Test class: cases.RechargeCase<br>Test method: 充值测试<br>Parameters: API [id=3, name=recharge, type=post, url=http://api.lemonban.com/futureloan/member/recharge, contentType=json], Case [id=16, detail=正确用例, params={"member_id":"88109","amount":"6300"}, apiId=3, expectedData=[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}], sqlCheck=select leave_amount from member where id = 88109]</td>
 <td></td>
-<td>0</td>
-<td>cases.RechargeCase@2e1792e7</td></tr>
+<td>1</td>
+<td>cases.RechargeCase@41a6d121</td></tr>
 <tr>
 <td title='cases.RechargeCase.test()'><b>test</b><br>Test class: cases.RechargeCase<br>Test method: 充值测试<br>Parameters: API [id=3, name=recharge, type=post, url=http://api.lemonban.com/futureloan/member/recharge, contentType=json], Case [id=17, detail=正确用例, params={"member_id":"88109","amount":"5300"}, apiId=3, expectedData=[{"value":0,"expression":"$.code"},{"value":"OK","expression":"$.msg"}], sqlCheck=select leave_amount from member where id = 88109]</td>
 <td></td>
-<td>0</td>
-<td>cases.RechargeCase@2e1792e7</td></tr>
+<td>1</td>
+<td>cases.RechargeCase@41a6d121</td></tr>
 </table><p>
 </body>
 </html>

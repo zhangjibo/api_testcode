@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" total="17" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="柠檬前程贷" duration-ms="5598" started-at="2019-12-20T16:00:12Z" finished-at="2019-12-20T16:00:17Z">
+  <suite name="柠檬前程贷" duration-ms="9395" started-at="2020-02-10T05:34:47Z" finished-at="2020-02-10T05:34:56Z">
     <groups>
     </groups>
-    <test name="测试接口" duration-ms="5598" started-at="2019-12-20T16:00:12Z" finished-at="2019-12-20T16:00:17Z">
+    <test name="测试接口" duration-ms="9395" started-at="2020-02-10T05:34:47Z" finished-at="2020-02-10T05:34:56Z">
       <class name="cases.RechargeCase">
-        <test-method status="FAIL" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@2e1792e7]" name="test" duration-ms="63" started-at="2019-12-21T00:00:16Z" description="充值测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="FAIL" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@41a6d121]" name="test" duration-ms="151" started-at="2020-02-10T13:34:53Z" description="充值测试" data-provider="data" finished-at="2020-02-10T13:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at cases.BaseCase.test(BaseCase.java:105)
+	at cases.BaseCase.test(BaseCase.java:103)
 	at cases.RechargeCase.test(RechargeCase.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@2e1792e7]" name="test" duration-ms="63" started-at="2019-12-21T00:00:16Z" description="充值测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@41a6d121]" name="test" duration-ms="152" started-at="2020-02-10T13:34:53Z" description="充值测试" data-provider="data" finished-at="2020-02-10T13:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@2e1792e7]" name="test" duration-ms="66" started-at="2019-12-21T00:00:16Z" description="充值测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@41a6d121]" name="test" duration-ms="145" started-at="2020-02-10T13:34:53Z" description="充值测试" data-provider="data" finished-at="2020-02-10T13:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="FAIL" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@2e1792e7]" name="test" duration-ms="63" started-at="2019-12-21T00:00:16Z" description="充值测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="FAIL" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@41a6d121]" name="test" duration-ms="165" started-at="2020-02-10T13:34:53Z" description="充值测试" data-provider="data" finished-at="2020-02-10T13:34:54Z">
           <params>
             <param index="0">
               <value>
@@ -123,7 +123,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at cases.BaseCase.test(BaseCase.java:105)
+	at cases.BaseCase.test(BaseCase.java:103)
 	at cases.RechargeCase.test(RechargeCase.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -159,7 +159,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@2e1792e7]" name="test" duration-ms="598" started-at="2019-12-21T00:00:16Z" description="充值测试" data-provider="data" finished-at="2019-12-21T00:00:17Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@41a6d121]" name="test" duration-ms="1322" started-at="2020-02-10T13:34:54Z" description="充值测试" data-provider="data" finished-at="2020-02-10T13:34:55Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@2e1792e7]" name="test" duration-ms="592" started-at="2019-12-21T00:00:17Z" description="充值测试" data-provider="data" finished-at="2019-12-21T00:00:17Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RechargeCase@41a6d121]" name="test" duration-ms="1364" started-at="2020-02-10T13:34:55Z" description="充值测试" data-provider="data" finished-at="2020-02-10T13:34:56Z">
           <params>
             <param index="0">
               <value>
@@ -193,19 +193,19 @@
         </test-method> <!-- test -->
       </class> <!-- cases.RechargeCase -->
       <class name="cases.LoginCase">
-        <test-method status="PASS" signature="init()[pri:0, instance:cases.LoginCase@3aefae67]" name="init" is-config="true" duration-ms="30" started-at="2019-12-21T00:00:12Z" finished-at="2019-12-21T00:00:12Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:cases.LoginCase@5b6e8f77]" name="init" is-config="true" duration-ms="28" started-at="2020-02-10T13:34:47Z" finished-at="2020-02-10T13:34:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:cases.RechargeCase@2e1792e7]" name="init" is-config="true" duration-ms="1" started-at="2019-12-21T00:00:12Z" finished-at="2019-12-21T00:00:12Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:cases.RechargeCase@41a6d121]" name="init" is-config="true" duration-ms="0" started-at="2020-02-10T13:34:47Z" finished-at="2020-02-10T13:34:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:cases.RegisterCase@69c6161d]" name="init" is-config="true" duration-ms="0" started-at="2019-12-21T00:00:12Z" finished-at="2019-12-21T00:00:12Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:cases.RegisterCase@5baaae4c]" name="init" is-config="true" duration-ms="0" started-at="2020-02-10T13:34:47Z" finished-at="2020-02-10T13:34:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@3aefae67]" name="test" duration-ms="64" started-at="2019-12-21T00:00:16Z" description="登录测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@5b6e8f77]" name="test" duration-ms="119" started-at="2020-02-10T13:34:52Z" description="登录测试" data-provider="data" finished-at="2020-02-10T13:34:52Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +221,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@3aefae67]" name="test" duration-ms="70" started-at="2019-12-21T00:00:16Z" description="登录测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@5b6e8f77]" name="test" duration-ms="134" started-at="2020-02-10T13:34:52Z" description="登录测试" data-provider="data" finished-at="2020-02-10T13:34:52Z">
           <params>
             <param index="0">
               <value>
@@ -237,7 +237,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@3aefae67]" name="test" duration-ms="74" started-at="2019-12-21T00:00:16Z" description="登录测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@5b6e8f77]" name="test" duration-ms="210" started-at="2020-02-10T13:34:52Z" description="登录测试" data-provider="data" finished-at="2020-02-10T13:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -253,7 +253,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@3aefae67]" name="test" duration-ms="72" started-at="2019-12-21T00:00:16Z" description="登录测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@5b6e8f77]" name="test" duration-ms="196" started-at="2020-02-10T13:34:53Z" description="登录测试" data-provider="data" finished-at="2020-02-10T13:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -269,7 +269,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@3aefae67]" name="test" duration-ms="74" started-at="2019-12-21T00:00:16Z" description="登录测试" data-provider="data" finished-at="2019-12-21T00:00:16Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.LoginCase@5b6e8f77]" name="test" duration-ms="198" started-at="2020-02-10T13:34:53Z" description="登录测试" data-provider="data" finished-at="2020-02-10T13:34:53Z">
           <params>
             <param index="0">
               <value>
@@ -285,21 +285,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:cases.LoginCase@3aefae67]" name="finish" is-config="true" duration-ms="146" started-at="2019-12-21T00:00:17Z" finished-at="2019-12-21T00:00:17Z">
+        <test-method status="PASS" signature="finish()[pri:0, instance:cases.LoginCase@5b6e8f77]" name="finish" is-config="true" duration-ms="132" started-at="2020-02-10T13:34:56Z" finished-at="2020-02-10T13:34:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:cases.RechargeCase@2e1792e7]" name="finish" is-config="true" duration-ms="82" started-at="2019-12-21T00:00:17Z" finished-at="2019-12-21T00:00:18Z">
+        <test-method status="PASS" signature="finish()[pri:0, instance:cases.RechargeCase@41a6d121]" name="finish" is-config="true" duration-ms="46" started-at="2020-02-10T13:34:56Z" finished-at="2020-02-10T13:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:cases.RegisterCase@69c6161d]" name="finish" is-config="true" duration-ms="66" started-at="2019-12-21T00:00:18Z" finished-at="2019-12-21T00:00:18Z">
+        <test-method status="PASS" signature="finish()[pri:0, instance:cases.RegisterCase@5baaae4c]" name="finish" is-config="true" duration-ms="38" started-at="2020-02-10T13:34:57Z" finished-at="2020-02-10T13:34:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
       </class> <!-- cases.LoginCase -->
       <class name="cases.RegisterCase">
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@69c6161d]" name="test" duration-ms="1125" started-at="2019-12-21T00:00:13Z" description="注册测试" data-provider="data" finished-at="2019-12-21T00:00:14Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@5baaae4c]" name="test" duration-ms="1531" started-at="2020-02-10T13:34:48Z" description="注册测试" data-provider="data" finished-at="2020-02-10T13:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -308,14 +308,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Case [id=1, detail=传手机号,不传密码, params={"mobile_phone":"15108550545","pwd":""}, apiId=1, expectedData={"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]]]>
+                <![CDATA[Case [id=1, detail=传手机号,不传密码, params={"mobile_phone":"15600546879","pwd":""}, apiId=1, expectedData={"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@69c6161d]" name="test" duration-ms="70" started-at="2019-12-21T00:00:14Z" description="注册测试" data-provider="data" finished-at="2019-12-21T00:00:14Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@5baaae4c]" name="test" duration-ms="143" started-at="2020-02-10T13:34:50Z" description="注册测试" data-provider="data" finished-at="2020-02-10T13:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -331,7 +331,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@69c6161d]" name="test" duration-ms="64" started-at="2019-12-21T00:00:14Z" description="注册测试" data-provider="data" finished-at="2019-12-21T00:00:14Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@5baaae4c]" name="test" duration-ms="160" started-at="2020-02-10T13:34:50Z" description="注册测试" data-provider="data" finished-at="2020-02-10T13:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@69c6161d]" name="test" duration-ms="65" started-at="2019-12-21T00:00:14Z" description="注册测试" data-provider="data" finished-at="2019-12-21T00:00:14Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@5baaae4c]" name="test" duration-ms="136" started-at="2020-02-10T13:34:50Z" description="注册测试" data-provider="data" finished-at="2020-02-10T13:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -356,14 +356,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Case [id=4, detail=合格的手机号+不合格密码, params={"mobile_phone":"15108550545","pwd":"12345"}, apiId=1, expectedData={"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]]]>
+                <![CDATA[Case [id=4, detail=合格的手机号+不合格密码, params={"mobile_phone":"15600546879","pwd":"12345"}, apiId=1, expectedData={"code":2,"msg":"密码格式为8到16位","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@69c6161d]" name="test" duration-ms="1023" started-at="2019-12-21T00:00:14Z" description="注册测试" data-provider="data" finished-at="2019-12-21T00:00:15Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@5baaae4c]" name="test" duration-ms="1856" started-at="2020-02-10T13:34:50Z" description="注册测试" data-provider="data" finished-at="2020-02-10T13:34:52Z">
           <params>
             <param index="0">
               <value>
@@ -372,14 +372,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Case [id=5, detail=合格手机号+合格密码, params={"mobile_phone":"15108550545","pwd":"12345678"}, apiId=1, expectedData=[{"value":0,"expression":"$.code"}], sqlCheck=select count(*) from member where mobile_phone = '15108550545';]]]>
+                <![CDATA[Case [id=5, detail=合格手机号+合格密码, params={"mobile_phone":"15600546879","pwd":"12345678"}, apiId=1, expectedData=[{"value":0,"expression":"$.code"}], sqlCheck=select count(*) from member where mobile_phone = '15600546879';]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@69c6161d]" name="test" duration-ms="78" started-at="2019-12-21T00:00:15Z" description="注册测试" data-provider="data" finished-at="2019-12-21T00:00:15Z">
+        <test-method status="PASS" signature="test(pojo.API, pojo.Case)[pri:0, instance:cases.RegisterCase@5baaae4c]" name="test" duration-ms="195" started-at="2020-02-10T13:34:52Z" description="注册测试" data-provider="data" finished-at="2020-02-10T13:34:52Z">
           <params>
             <param index="0">
               <value>
@@ -388,7 +388,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Case [id=6, detail=重复以上的手机号+密码, params={"mobile_phone":"15108550545","pwd":"12345678"}, apiId=1, expectedData={"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]]]>
+                <![CDATA[Case [id=6, detail=重复以上的手机号+密码, params={"mobile_phone":"15600546879","pwd":"12345678"}, apiId=1, expectedData={"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2019 湖南省零檬信息技术有限公司 All Rights Reserved"}, sqlCheck=null]]]>
               </value>
             </param>
           </params>
